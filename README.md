@@ -4,6 +4,8 @@ An R Package for Turning Ethnic NewsWatch Search Results into Tidyverse-ready Da
 
 Author: [Jae Yeon Kim](https://jaeyk.github.io/)
 
+File an [issue](https://github.com/jaeyk/tidyethnicnews/issues) if you have problems, questions or suggestions.
+
 ## Summary
 
 The [Ethnic NewsWatch database](https://about.proquest.com/products-services/ethnic_newswatch.html), provided by [ProQuest](https://about.proquest.com/), has compiled more than 2.5 million articles published in US ethnic newspapers and magazines. The database covers the following groups:
@@ -106,8 +108,18 @@ df_all <- html_to_dataframe_all(dirpath)
 
 This package has been useful for me to collect data for [my dissertation](https://jaeyk.github.io/_pages/dissertation_abstract_Kim.pdf) and other research.
 
-1. Kim, Jae Yeon. 2020. "Text as Issue: Measuring Issues Preferences Among Minority Groups Through Ethnic Newspapers." SocArXiv. April 30.  [[Preprint](https://osf.io/preprints/socarxiv/pg3aq/)] [[GitHub](https://github.com/jaeyk/content-analysis-for-evaluating-ML-performances)] [[Slides (presented at the UC Berkeley D-Lab Fellows Talk Series)](https://slides.com/jaeyeonkim/deck/fullscreen)]
+1. Kim, Jae Yeon. 2020. "Integrating Human and Machine Coding to Measure Political Issues in Ethnic Newspaper Articles." SocArXiv. April 30.  [[Preprint](https://osf.io/preprints/socarxiv/pg3aq/)] [[GitHub](https://github.com/jaeyk/content-analysis-for-evaluating-ML-performances)] [[Slides (presented at the UC Berkeley D-Lab Fellows Talk Series)](https://slides.com/jaeyeonkim/deck/fullscreen)]
 
    - Winner of the [Don T. Nakanishi Award for Distinguished Scholarship in Asian Pacific American Politics](https://www.wpsanet.org/award/2020Awards.pdf),  Western Political Science Association (2020)
+   - Conditionally accepted at the *Journal of Computational Social Science*
 
 2. “How Do Threats Induce Information Seeking?: When Natural Experiments Meet Text Data” (with [Andrew Thompson](https://sites.northwestern.edu/athompson/)) [[GitHub](https://github.com/jaeyk/ITS-Text-Classification)]
+
+
+## How to cite
+
+If you would like to cite, please do something like the following:
+
+```
+Jae Yeon Kim. (2020). tidyethnicnewws. R package version 0.1.0. Retrieved from https://github.com/jaeyk/tidyethnicnews
+```
