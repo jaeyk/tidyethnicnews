@@ -8,9 +8,7 @@
 #' @export
 
 html_to_dataframe_all <- function(dir_path){
-  
-  dir_path <- "/home/jae/muslim_newspapers-selected/full_version/"
-  
+
   # Load all HTML files in the designated file path 
   filename <- list.files(dir_path, 
                          pattern = '*.html', 

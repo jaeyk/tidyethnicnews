@@ -9,7 +9,7 @@
 #' @importFrom stringr str_squish
 #' @importFrom stringr str_trim
 #' @importFrom xml2 read_html
-#' @importFrom purrr pmap
+#' @importFrom purrr map
 #' @importFrom purrr reduce
 #' @importFrom rvest html_nodes
 #' @importFrom rvest html_text
@@ -40,10 +40,12 @@ doc_mixed <- html_data %>%
     str_replace_all("\\]", ":")
 
 # Combine the two objects together as a dataframe
+
 df <- data.frame(text = doc_text, 
                  mixed = doc_mixed)
 
 # Separate mixed 
+
 df <- df %>% 
     separate(mixed, c("source_mixed", "date"), ":")
 
