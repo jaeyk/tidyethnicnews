@@ -113,7 +113,7 @@ This package has been useful for me to collect data for [my dissertation](https:
    - Winner of the [Don T. Nakanishi Award for Distinguished Scholarship in Asian Pacific American Politics](https://www.wpsanet.org/award/2020Awards.pdf),  Western Political Science Association (2020)
    - Conditionally accepted at the *Journal of Computational Social Science*
 
-2. “How Do Threats Induce Information Seeking?: When Natural Experiments Meet Text Data” (with [Andrew Thompson](https://sites.northwestern.edu/athompson/)) [[GitHub](https://github.com/jaeyk/ITS-Text-Classification)]
+2. Kim, Jae Yeon and Andrew Thompson. 2020. “How Threats Shape the Politics of Marginalized: Evidence from a Natural Experiment and Machine Learning." SocArXiv. September 16. [[Preprint](https://github.com/jaeyk/ITS-Text-Classification)] [[GitHub](https://github.com/jaeyk/ITS-Text-Classification)]
 
 
 ## How to cite
