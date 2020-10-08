@@ -89,15 +89,22 @@ As stated in the message, the problem will be fixed automatically and there's no
 
 The next step is scale-up. The `html_to_dataframe_all()` function allows you to turn all the HTML files saved in a particular directory into a d dataframe using a single command.
 
-Again, the `df_all` object should have four columns: `text`, `author`, `source`, `date`. I tested the running time performance using the `tictoc` package. The `html_to_dataframe_all()` function takes **28** seconds to turn **5,684** articles into a dataframe. (On average, **0.005** seconds per article.)
+Again, the `df_all` object should have four columns: `text`, `author`, `source`, `date`. I tested the running time performance using the `tictoc` package. If you use parallel processing, the `html_to_dataframe_all()` function takes **12.34** seconds to turn **5,684** articles into a dataframe. (On average, **0.002** seconds per article.)
 
 ```r
 
 # Load library
 library(tidyethnicnews)
+library(furrr) # for parallel processing 
 
 # You need to designate a directory path.
 dirpath <- tcltk::tk_choose.dir()
+
+# Parallel processing 
+n_cores <- availableCores() - 1
+
+plan(multiprocess, # multicore, if supported, otherwise multisession
+     workers = n_cores) # the maximum number of workers
 
 # Assign the parsed result to the `df_all` object
 df_all <- html_to_dataframe_all(dirpath)
