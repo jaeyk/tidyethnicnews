@@ -116,5 +116,5 @@ df_all <- html_to_dataframe_all(dirpath)
 If you would like to cite, please do something like the following:
 
 ```
-Jae Yeon Kim. (2020). tidyethnicnewws. R package version 0.1.0. Retrieved from https://github.com/jaeyk/tidyethnicnews
+Jae Yeon Kim. (2020). tidyethnicnewws. R package version 0.2.0. Retrieved from https://github.com/jaeyk/tidyethnicnews
 ```
