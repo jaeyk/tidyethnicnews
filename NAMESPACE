@@ -3,6 +3,7 @@
 export(html_to_dataframe)
 export(html_to_dataframe_all)
 importFrom(dplyr,full_join)
+importFrom(furrr,future_map_dfr)
 importFrom(magrittr,"%>%")
 importFrom(purrr,map)
 importFrom(purrr,reduce)
