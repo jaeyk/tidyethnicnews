@@ -1,1 +1,1 @@
-utils::globalVariables(c("source_mixed", "text", "mixed"))
+utils::globalVariables(c("source_mixed", "text", "mixed", "title"))

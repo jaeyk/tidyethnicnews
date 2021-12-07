@@ -1,5 +1,5 @@
 Package: tidyethnicnews
-Version: 0.2.0
+Version: 0.3.0
 Date: 2020-06-14
 Type: Package
 Title: Tidying Ethnic NewsWatch Search Results
@@ -20,4 +20,4 @@ Imports:
   furrr (>= 0.1.0), 
   xml2 (>= 1.3.2),
   textclean
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
