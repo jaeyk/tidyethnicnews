@@ -50,7 +50,7 @@ html_to_dataframe <- function(file_path) {
     html_text() %>%
     replace_html()
   
-  doc_title <- str_replace_all(unique(c(title1, title2)), "\\\\", "")
+  doc_title <- str_replace_all(c(title1, title2), "\\\\", "")
   
   # Combine the three objects together as a dataframe
 
