@@ -10,7 +10,7 @@ html_to_dataframe_all(dir_path)
 \item{dir_path}{A directory path where a user saved the HTML files containing the search results from the Ethnic NewsWatch database. This input should be a string vector.}
 }
 \value{
-A dataframe with four columns ("text", "source", "author", "date")
+A dataframe with four columns ("text", "source", "author", "date", "title")
 }
 \description{
 Parse multiple Ethnic NewsWatch search result (saved in HTML format) into a dataframe
